@@ -1,110 +1,102 @@
 buildscript {
     repositories {
         jcenter()
-        mavenCentral()
-        maven { url = "http://files.minecraftforge.net/maven" }
+        maven {
+            name = "forge"
+            url = "http://files.minecraftforge.net/maven"
+        }
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.50'
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
     }
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
-apply plugin: 'kotlin'
 
-
-version = "0.0.3"
-group = "com.jozufozu.exnihiloomnia"
+version = "1.2.6"
+group= "jozufozu" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "exnihiloomnia"
 
-sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = compileKotlin.kotlinOptions.jvmTarget = compileTestKotlin.kotlinOptions.jvmTarget = '1.8' // Need this here so eclipse task generates correctly.
+sourceCompatibility = targetCompatibility = "1.8"
+compileJava {
+    sourceCompatibility = targetCompatibility = "1.8"
+}
 
 minecraft {
-    version = project.mc_version + "-" + project.forge_version
+    version = "${mc_version}-${forge_version}"
     runDir = "run"
 
-    replace '@VERSION@', project.mc_version + "-" + project.version
-
-    mappings = "snapshot_20170624"
+    mappings = "snapshot_20161111"
+    // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
 }
 
 repositories {
-    jcenter()
-
     maven {
-        // location of the maven that hosts JEI files
-        name = "Progwml6 maven"
-        url = "http://dvs1.progwml6.com/files/maven"
+        name "Mobius Repo"
+        url "http://mobiusstrip.eu/maven"
     }
     maven {
-        // location of a maven mirror for JEI files, as a fallback
-        name = "ModMaven"
-        url = "modmaven.k-4u.nl"
+        name 'DVS1 Maven FS'
+        url 'http://dvs1.progwml6.com/files/maven'
     }
-
-    maven { // TOP
-        name = 'tterrag maven'
-        url = "http://maven.tterrag.com/"
-    }
-
     maven {
-        name = "CoFH Maven"
-        url = "http://maven.covers1624.net"
+        name 'tterrag maven'
+        url "http://maven.tterrag.com/"
     }
-
-    maven { //Albedo
-        url = 'https://repo.elytradev.com/'
-    }
-
     maven {
-        url = "http://maven.shadowfacts.net/"
+        name 'Forestry'
+        url "http://maven.ic2.player.to/"
+    }
+    maven {
+        url "http://maven.cil.li/"
+    }
+    maven {
+        url "http://maven.ic2.player.to"
+    }
+    maven {
+        url "http://maven.epoxide.xyz"
+    }
+    maven {
+        url "http://dl.tsr.me/artifactory/libs-release-local"
+    }
+    maven {
+        url "http://maven.chaosfield.at/"
+    }
+    ivy {
+        url "http://ae-mod.info/builds"
+        layout "pattern", {
+            artifact "[module]-[revision](-[classifier])(.[ext])"
+        }
     }
 }
 
 dependencies {
-    compile group: "net.shadowfacts", name: "Forgelin", version: "1.8.4"
-
+    deobfCompile "mcjty.theoneprobe:TheOneProbe:${top_version}"
     deobfCompile "mezz.jei:jei_${mc_version}:${jei_version}"
-
-    deobfCompile "mcjty.theoneprobe:TheOneProbe-1.12:1.12-${top_version}"
-
-    //deobfCompile 'elucent:albedo:2.0-SNAPSHOT'
+    deobfCompile "mcp.mobius.waila:Waila:1.7.0-B3_1.9.4"
+    deobfCompile "slimeknights.mantle:Mantle:${mc_version}-${mantle_version}"
+    deobfCompile "slimeknights:TConstruct:${mc_version}-${tcon_version}"
+    deobfCompile "net.sengir.forestry:forestry_${mc_version}:${forestry_version}"
+    deobfCompile"com.enderio.core:EnderCore:${mc_version}-${endercore_version}"
+    deobfCompile "com.enderio:EnderIO:${mc_version}-${enderio_version}"
+    deobfCompile "de.ellpeck.actuallyadditions:ActuallyAdditions:${mc_version}-${aa_version}"
 }
 
-processResources {
+processResources
+{
+    // this will ensure that this task is redone when the versions change.
     inputs.property "version", project.version
     inputs.property "mcversion", project.minecraft.version
 
+    // replace stuff in mcmod.info, nothing else
     from(sourceSets.main.resources.srcDirs) {
         include 'mcmod.info'
-
+                
+        // replace version and mcversion
         expand 'version':project.version, 'mcversion':project.minecraft.version
     }
-
+        
+    // copy everything else, thats not the mcmod.info
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
     }
-}
-
-jar {
-    archiveName = baseName + "_" + project.mc_version + "-" + project.version  + "." + extension
-
-    exclude "**/*.bat"
-    exclude "**/*.psd"
-    exclude "**/*.exe"
-}
-
-task srcJar(type: Jar) {
-    from sourceSets.main.allSource
-    archiveName = baseName + "_" + project.mc_version + "-" + project.version  + "-sources." + extension
-}
-
-task deobfJar(type: Jar) {
-    from sourceSets.main.output
-    archiveName = baseName + "_" + project.mc_version + "-" + project.version  + "-deobf." + extension
-}
-
-// Tell the artifact system about our extra jars
-artifacts {
-    archives srcJar, deobfJar
 }

@@ -1,0 +1,10 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "exnihiloomnia:ore_gravel"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}

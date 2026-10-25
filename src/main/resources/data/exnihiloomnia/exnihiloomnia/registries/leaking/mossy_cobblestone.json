@@ -1,7 +1,0 @@
-{
-    "blockInput": {
-        "block": "minecraft:cobblestone"
-    },
-    "fluidInput": "water",
-    "result": "minecraft:mossy_cobblestone"
-}

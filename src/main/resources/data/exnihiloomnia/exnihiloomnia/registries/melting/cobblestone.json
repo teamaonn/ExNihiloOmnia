@@ -1,8 +1,0 @@
-{
-    "input": {
-        "type": "forge:ore_dict",
-        "ore": "cobblestone"
-    },
-    "heat": 3,
-    "fluidOutput": "lava"
-}

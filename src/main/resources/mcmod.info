@@ -1,14 +1,12 @@
 [
 {
-  "modid": "exnihiloomnia",
-  "name": "Ex Nihilo Omnia",
-  "description": "From nothing, everything. A reboot of the original skyblock companion mod.",
-  "version": "${version}",
+  "modid": "exnihiloomnia", "version": "${version}", "name": "Ex Nihilo Omnia",
+  "description": "Everything from nothing.",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["Jozufozu"],
-  "credits": "ErasmusCrowley, for designing and developing the original",
+  "authorList": ["Raven2396"],
+  "credits": "Erasmus Crowley, for coming up with it in the first place.",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

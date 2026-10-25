@@ -6,9 +6,7 @@
     "variants": {
         "fluid": {
             "model": "forge:fluid",
-            "custom": {
-                "fluid": "exnihiloomnia:witchwater"
-            }
+            "custom": { "fluid": "witchwater" }
         }
     }
 }

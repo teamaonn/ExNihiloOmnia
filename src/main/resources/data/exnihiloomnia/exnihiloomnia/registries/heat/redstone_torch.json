@@ -1,6 +1,0 @@
-{
-    "heat": 1,
-    "source": {
-        "block": "minecraft:redstone_torch"
-    }
-}

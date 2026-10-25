@@ -1,9 +1,0 @@
-{
-    "input": {
-        "item": "exnihiloomnia:dust"
-    },
-    "fluidInput": "water",
-    "output": {
-        "item": "minecraft:clay"
-    }
-}

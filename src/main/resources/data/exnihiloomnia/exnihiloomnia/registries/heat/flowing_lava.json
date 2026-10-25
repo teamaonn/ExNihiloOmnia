@@ -1,6 +1,0 @@
-{
-    "heat": 5,
-    "source": {
-        "block": "minecraft:flowing_lava"
-    }
-}

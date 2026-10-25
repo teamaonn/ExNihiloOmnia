@@ -1,13 +1,10 @@
 {
     "forge_marker": 1,
     "defaults": {
-        "model": "cube_all",
-        "textures": {
-            "all": "exnihiloomnia:blocks/dust"
-        }
+        "model": "exnihiloomnia:dust"
     },
     "variants": {
-        "normal": [{ }],
-        "inventory": [{ }]
+        "normal": [{}],
+        "inventory": [{}]
     }
 }
