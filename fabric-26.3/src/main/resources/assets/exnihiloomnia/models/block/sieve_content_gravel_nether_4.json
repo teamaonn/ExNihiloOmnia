@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "content": "exnihiloomnia:block/gravel_nether",
+    "particle": "exnihiloomnia:block/gravel_nether"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        11.2,
+        2
+      ],
+      "to": [
+        14,
+        12.5,
+        14
+      ],
+      "faces": {
+        "up": {
+          "texture": "#content"
+        },
+        "down": {
+          "texture": "#content"
+        },
+        "north": {
+          "texture": "#content"
+        },
+        "south": {
+          "texture": "#content"
+        },
+        "east": {
+          "texture": "#content"
+        },
+        "west": {
+          "texture": "#content"
+        }
+      }
+    }
+  ]
+}

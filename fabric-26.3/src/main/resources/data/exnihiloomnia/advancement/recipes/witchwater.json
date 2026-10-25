@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "inventory": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "exnihiloomnia:doll_diamond",
+      "exnihiloomnia:doll_emerald",
+      "exnihiloomnia:doll_blaze",
+      "exnihiloomnia:doll_ender"
+    ]
+  }
+}

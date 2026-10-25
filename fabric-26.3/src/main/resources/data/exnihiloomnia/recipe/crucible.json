@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "exnihiloomnia:crucible_raw",
+  "result": {
+    "id": "exnihiloomnia:crucible"
+  },
+  "experience": 0,
+  "cookingtime": 200
+}

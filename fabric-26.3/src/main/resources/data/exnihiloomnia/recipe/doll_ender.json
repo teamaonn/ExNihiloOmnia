@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BWB",
+    "GDG",
+    "BRB"
+  ],
+  "key": {
+    "B": "#exnihiloomnia:black_doll_dyes",
+    "W": "minecraft:nether_wart",
+    "G": "minecraft:lapis_lazuli",
+    "D": "exnihiloomnia:doll",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "exnihiloomnia:doll_ender",
+    "count": 1
+  }
+}

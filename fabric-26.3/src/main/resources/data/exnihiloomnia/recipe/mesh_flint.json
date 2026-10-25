@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " X ",
+    "XMX",
+    " X "
+  ],
+  "key": {
+    "X": "minecraft:flint",
+    "M": "exnihiloomnia:mesh_string"
+  },
+  "result": {
+    "id": "exnihiloomnia:mesh_flint",
+    "count": 1
+  }
+}

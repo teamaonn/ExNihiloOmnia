@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "exnihiloomnia:block/gravel_nether"
+  }
+}

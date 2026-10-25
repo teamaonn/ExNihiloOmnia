@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "inventory": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "exnihiloomnia:crook_wood",
+      "exnihiloomnia:crook_bone",
+      "exnihiloomnia:cooked_silkworm"
+    ]
+  }
+}

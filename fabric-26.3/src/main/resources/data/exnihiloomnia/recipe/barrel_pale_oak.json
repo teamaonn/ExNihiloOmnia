@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X X",
+    "X X",
+    "XYX"
+  ],
+  "key": {
+    "X": "minecraft:pale_oak_planks",
+    "Y": "minecraft:pale_oak_slab"
+  },
+  "result": {
+    "id": "exnihiloomnia:barrel_pale_oak",
+    "count": 1
+  }
+}

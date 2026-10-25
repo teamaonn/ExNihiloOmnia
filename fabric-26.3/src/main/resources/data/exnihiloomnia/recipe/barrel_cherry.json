@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X X",
+    "X X",
+    "XYX"
+  ],
+  "key": {
+    "X": "minecraft:cherry_planks",
+    "Y": "minecraft:cherry_slab"
+  },
+  "result": {
+    "id": "exnihiloomnia:barrel_cherry",
+    "count": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "content": "minecraft:block/polished_diorite",
+    "particle": "minecraft:block/polished_diorite"
+  },
+  "elements": [
+    {
+      "from": [
+        1.01,
+        3.01,
+        1.01
+      ],
+      "to": [
+        14.99,
+        14.035,
+        14.99
+      ],
+      "faces": {
+        "up": {
+          "texture": "#content"
+        },
+        "down": {
+          "texture": "#content"
+        },
+        "north": {
+          "texture": "#content"
+        },
+        "south": {
+          "texture": "#content"
+        },
+        "east": {
+          "texture": "#content"
+        },
+        "west": {
+          "texture": "#content"
+        }
+      }
+    }
+  ]
+}

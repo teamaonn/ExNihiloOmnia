@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "XX",
+    " X",
+    " X"
+  ],
+  "key": {
+    "X": "minecraft:stick"
+  },
+  "result": {
+    "id": "exnihiloomnia:crook_wood",
+    "count": 1
+  }
+}

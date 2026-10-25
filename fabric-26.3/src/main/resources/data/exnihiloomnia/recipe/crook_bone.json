@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "XX",
+    " X",
+    " X"
+  ],
+  "key": {
+    "X": "minecraft:bone"
+  },
+  "result": {
+    "id": "exnihiloomnia:crook_bone",
+    "count": 1
+  }
+}

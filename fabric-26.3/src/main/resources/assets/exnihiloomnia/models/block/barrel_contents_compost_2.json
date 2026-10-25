@@ -1,0 +1,46 @@
+{
+  "textures": {
+    "content": "exnihiloomnia:block/compost",
+    "particle": "exnihiloomnia:block/compost"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        1.01,
+        2
+      ],
+      "to": [
+        14,
+        4.46,
+        14
+      ],
+      "faces": {
+        "up": {
+          "texture": "#content",
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#content",
+          "tintindex": 0
+        },
+        "north": {
+          "texture": "#content",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#content",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#content",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#content",
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

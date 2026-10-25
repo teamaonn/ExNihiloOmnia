@@ -1,0 +1,1161 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "exnihiloomnia:block/crucible"
+      }
+    },
+    {
+      "when": {
+        "content": "cobblestone",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_cobblestone_1"
+      }
+    },
+    {
+      "when": {
+        "content": "cobblestone",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_cobblestone_2"
+      }
+    },
+    {
+      "when": {
+        "content": "cobblestone",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_cobblestone_3"
+      }
+    },
+    {
+      "when": {
+        "content": "cobblestone",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_cobblestone_4"
+      }
+    },
+    {
+      "when": {
+        "content": "cobblestone",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_cobblestone_5"
+      }
+    },
+    {
+      "when": {
+        "content": "cobblestone",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_cobblestone_6"
+      }
+    },
+    {
+      "when": {
+        "content": "cobblestone",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_cobblestone_7"
+      }
+    },
+    {
+      "when": {
+        "content": "cobblestone",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_cobblestone_8"
+      }
+    },
+    {
+      "when": {
+        "content": "stone",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_stone_1"
+      }
+    },
+    {
+      "when": {
+        "content": "stone",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_stone_2"
+      }
+    },
+    {
+      "when": {
+        "content": "stone",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_stone_3"
+      }
+    },
+    {
+      "when": {
+        "content": "stone",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_stone_4"
+      }
+    },
+    {
+      "when": {
+        "content": "stone",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_stone_5"
+      }
+    },
+    {
+      "when": {
+        "content": "stone",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_stone_6"
+      }
+    },
+    {
+      "when": {
+        "content": "stone",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_stone_7"
+      }
+    },
+    {
+      "when": {
+        "content": "stone",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_stone_8"
+      }
+    },
+    {
+      "when": {
+        "content": "granite",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_granite_1"
+      }
+    },
+    {
+      "when": {
+        "content": "granite",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_granite_2"
+      }
+    },
+    {
+      "when": {
+        "content": "granite",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_granite_3"
+      }
+    },
+    {
+      "when": {
+        "content": "granite",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_granite_4"
+      }
+    },
+    {
+      "when": {
+        "content": "granite",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_granite_5"
+      }
+    },
+    {
+      "when": {
+        "content": "granite",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_granite_6"
+      }
+    },
+    {
+      "when": {
+        "content": "granite",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_granite_7"
+      }
+    },
+    {
+      "when": {
+        "content": "granite",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_granite_8"
+      }
+    },
+    {
+      "when": {
+        "content": "diorite",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_diorite_1"
+      }
+    },
+    {
+      "when": {
+        "content": "diorite",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_diorite_2"
+      }
+    },
+    {
+      "when": {
+        "content": "diorite",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_diorite_3"
+      }
+    },
+    {
+      "when": {
+        "content": "diorite",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_diorite_4"
+      }
+    },
+    {
+      "when": {
+        "content": "diorite",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_diorite_5"
+      }
+    },
+    {
+      "when": {
+        "content": "diorite",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_diorite_6"
+      }
+    },
+    {
+      "when": {
+        "content": "diorite",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_diorite_7"
+      }
+    },
+    {
+      "when": {
+        "content": "diorite",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_diorite_8"
+      }
+    },
+    {
+      "when": {
+        "content": "andesite",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_andesite_1"
+      }
+    },
+    {
+      "when": {
+        "content": "andesite",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_andesite_2"
+      }
+    },
+    {
+      "when": {
+        "content": "andesite",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_andesite_3"
+      }
+    },
+    {
+      "when": {
+        "content": "andesite",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_andesite_4"
+      }
+    },
+    {
+      "when": {
+        "content": "andesite",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_andesite_5"
+      }
+    },
+    {
+      "when": {
+        "content": "andesite",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_andesite_6"
+      }
+    },
+    {
+      "when": {
+        "content": "andesite",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_andesite_7"
+      }
+    },
+    {
+      "when": {
+        "content": "andesite",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_andesite_8"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_granite",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_granite_1"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_granite",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_granite_2"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_granite",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_granite_3"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_granite",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_granite_4"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_granite",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_granite_5"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_granite",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_granite_6"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_granite",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_granite_7"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_granite",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_granite_8"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_diorite",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_diorite_1"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_diorite",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_diorite_2"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_diorite",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_diorite_3"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_diorite",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_diorite_4"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_diorite",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_diorite_5"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_diorite",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_diorite_6"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_diorite",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_diorite_7"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_diorite",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_diorite_8"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_andesite",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_andesite_1"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_andesite",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_andesite_2"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_andesite",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_andesite_3"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_andesite",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_andesite_4"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_andesite",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_andesite_5"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_andesite",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_andesite_6"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_andesite",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_andesite_7"
+      }
+    },
+    {
+      "when": {
+        "content": "polished_andesite",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_polished_andesite_8"
+      }
+    },
+    {
+      "when": {
+        "content": "gravel",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_gravel_1"
+      }
+    },
+    {
+      "when": {
+        "content": "gravel",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_gravel_2"
+      }
+    },
+    {
+      "when": {
+        "content": "gravel",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_gravel_3"
+      }
+    },
+    {
+      "when": {
+        "content": "gravel",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_gravel_4"
+      }
+    },
+    {
+      "when": {
+        "content": "gravel",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_gravel_5"
+      }
+    },
+    {
+      "when": {
+        "content": "gravel",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_gravel_6"
+      }
+    },
+    {
+      "when": {
+        "content": "gravel",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_gravel_7"
+      }
+    },
+    {
+      "when": {
+        "content": "gravel",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_gravel_8"
+      }
+    },
+    {
+      "when": {
+        "content": "netherrack",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_netherrack_1"
+      }
+    },
+    {
+      "when": {
+        "content": "netherrack",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_netherrack_2"
+      }
+    },
+    {
+      "when": {
+        "content": "netherrack",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_netherrack_3"
+      }
+    },
+    {
+      "when": {
+        "content": "netherrack",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_netherrack_4"
+      }
+    },
+    {
+      "when": {
+        "content": "netherrack",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_netherrack_5"
+      }
+    },
+    {
+      "when": {
+        "content": "netherrack",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_netherrack_6"
+      }
+    },
+    {
+      "when": {
+        "content": "netherrack",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_netherrack_7"
+      }
+    },
+    {
+      "when": {
+        "content": "netherrack",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_netherrack_8"
+      }
+    },
+    {
+      "when": {
+        "content": "magma",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_magma_1"
+      }
+    },
+    {
+      "when": {
+        "content": "magma",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_magma_2"
+      }
+    },
+    {
+      "when": {
+        "content": "magma",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_magma_3"
+      }
+    },
+    {
+      "when": {
+        "content": "magma",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_magma_4"
+      }
+    },
+    {
+      "when": {
+        "content": "magma",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_magma_5"
+      }
+    },
+    {
+      "when": {
+        "content": "magma",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_magma_6"
+      }
+    },
+    {
+      "when": {
+        "content": "magma",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_magma_7"
+      }
+    },
+    {
+      "when": {
+        "content": "magma",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_magma_8"
+      }
+    },
+    {
+      "when": {
+        "content": "snow",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_snow_1"
+      }
+    },
+    {
+      "when": {
+        "content": "snow",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_snow_2"
+      }
+    },
+    {
+      "when": {
+        "content": "snow",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_snow_3"
+      }
+    },
+    {
+      "when": {
+        "content": "snow",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_snow_4"
+      }
+    },
+    {
+      "when": {
+        "content": "snow",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_snow_5"
+      }
+    },
+    {
+      "when": {
+        "content": "snow",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_snow_6"
+      }
+    },
+    {
+      "when": {
+        "content": "snow",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_snow_7"
+      }
+    },
+    {
+      "when": {
+        "content": "snow",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_snow_8"
+      }
+    },
+    {
+      "when": {
+        "content": "ice",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_ice_1"
+      }
+    },
+    {
+      "when": {
+        "content": "ice",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_ice_2"
+      }
+    },
+    {
+      "when": {
+        "content": "ice",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_ice_3"
+      }
+    },
+    {
+      "when": {
+        "content": "ice",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_ice_4"
+      }
+    },
+    {
+      "when": {
+        "content": "ice",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_ice_5"
+      }
+    },
+    {
+      "when": {
+        "content": "ice",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_ice_6"
+      }
+    },
+    {
+      "when": {
+        "content": "ice",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_ice_7"
+      }
+    },
+    {
+      "when": {
+        "content": "ice",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_ice_8"
+      }
+    },
+    {
+      "when": {
+        "content": "packed_ice",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_packed_ice_1"
+      }
+    },
+    {
+      "when": {
+        "content": "packed_ice",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_packed_ice_2"
+      }
+    },
+    {
+      "when": {
+        "content": "packed_ice",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_packed_ice_3"
+      }
+    },
+    {
+      "when": {
+        "content": "packed_ice",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_packed_ice_4"
+      }
+    },
+    {
+      "when": {
+        "content": "packed_ice",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_packed_ice_5"
+      }
+    },
+    {
+      "when": {
+        "content": "packed_ice",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_packed_ice_6"
+      }
+    },
+    {
+      "when": {
+        "content": "packed_ice",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_packed_ice_7"
+      }
+    },
+    {
+      "when": {
+        "content": "packed_ice",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_packed_ice_8"
+      }
+    },
+    {
+      "when": {
+        "content": "water",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_water_1"
+      }
+    },
+    {
+      "when": {
+        "content": "water",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_water_2"
+      }
+    },
+    {
+      "when": {
+        "content": "water",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_water_3"
+      }
+    },
+    {
+      "when": {
+        "content": "water",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_water_4"
+      }
+    },
+    {
+      "when": {
+        "content": "water",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_water_5"
+      }
+    },
+    {
+      "when": {
+        "content": "water",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_water_6"
+      }
+    },
+    {
+      "when": {
+        "content": "water",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_water_7"
+      }
+    },
+    {
+      "when": {
+        "content": "water",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_water_8"
+      }
+    },
+    {
+      "when": {
+        "content": "lava",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_lava_1"
+      }
+    },
+    {
+      "when": {
+        "content": "lava",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_lava_2"
+      }
+    },
+    {
+      "when": {
+        "content": "lava",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_lava_3"
+      }
+    },
+    {
+      "when": {
+        "content": "lava",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_lava_4"
+      }
+    },
+    {
+      "when": {
+        "content": "lava",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_lava_5"
+      }
+    },
+    {
+      "when": {
+        "content": "lava",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_lava_6"
+      }
+    },
+    {
+      "when": {
+        "content": "lava",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_lava_7"
+      }
+    },
+    {
+      "when": {
+        "content": "lava",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/crucible_contents_lava_8"
+      }
+    }
+  ]
+}

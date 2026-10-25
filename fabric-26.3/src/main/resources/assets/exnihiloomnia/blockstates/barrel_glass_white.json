@@ -1,0 +1,1449 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_glass_white"
+      }
+    },
+    {
+      "when": {
+        "contents": "compost",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_compost_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "compost",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_compost_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "compost",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_compost_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "compost",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_compost_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "compost",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_compost_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "compost",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_compost_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "compost",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_compost_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "compost",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_compost_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "water",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_water_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "water",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_water_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "water",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_water_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "water",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_water_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "water",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_water_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "water",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_water_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "water",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_water_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "water",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_water_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "lava",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_lava_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "lava",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_lava_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "lava",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_lava_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "lava",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_lava_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "lava",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_lava_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "lava",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_lava_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "lava",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_lava_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "lava",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_lava_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "dirt",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_dirt_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "dirt",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_dirt_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "dirt",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_dirt_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "dirt",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_dirt_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "dirt",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_dirt_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "dirt",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_dirt_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "dirt",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_dirt_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "dirt",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_dirt_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "clay",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_clay_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "clay",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_clay_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "clay",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_clay_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "clay",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_clay_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "clay",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_clay_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "clay",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_clay_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "clay",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_clay_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "clay",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_clay_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "netherrack",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_netherrack_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "netherrack",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_netherrack_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "netherrack",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_netherrack_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "netherrack",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_netherrack_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "netherrack",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_netherrack_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "netherrack",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_netherrack_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "netherrack",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_netherrack_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "netherrack",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_netherrack_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "end_stone",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_end_stone_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "end_stone",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_end_stone_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "end_stone",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_end_stone_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "end_stone",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_end_stone_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "end_stone",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_end_stone_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "end_stone",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_end_stone_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "end_stone",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_end_stone_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "end_stone",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_end_stone_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "obsidian",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_obsidian_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "obsidian",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_obsidian_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "obsidian",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_obsidian_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "obsidian",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_obsidian_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "obsidian",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_obsidian_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "obsidian",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_obsidian_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "obsidian",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_obsidian_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "obsidian",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_obsidian_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "stone",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_stone_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "stone",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_stone_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "stone",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_stone_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "stone",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_stone_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "stone",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_stone_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "stone",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_stone_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "stone",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_stone_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "stone",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_stone_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "cobblestone",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_cobblestone_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "cobblestone",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_cobblestone_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "cobblestone",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_cobblestone_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "cobblestone",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_cobblestone_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "cobblestone",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_cobblestone_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "cobblestone",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_cobblestone_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "cobblestone",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_cobblestone_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "cobblestone",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_cobblestone_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "grass",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_grass_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "grass",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_grass_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "grass",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_grass_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "grass",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_grass_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "grass",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_grass_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "grass",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_grass_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "grass",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_grass_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "grass",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_grass_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "mycelium",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_mycelium_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "mycelium",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_mycelium_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "mycelium",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_mycelium_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "mycelium",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_mycelium_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "mycelium",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_mycelium_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "mycelium",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_mycelium_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "mycelium",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_mycelium_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "mycelium",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_mycelium_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "ice",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_ice_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "ice",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_ice_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "ice",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_ice_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "ice",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_ice_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "ice",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_ice_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "ice",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_ice_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "ice",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_ice_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "ice",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_ice_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "slime",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_slime_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "slime",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_slime_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "slime",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_slime_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "slime",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_slime_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "slime",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_slime_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "slime",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_slime_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "slime",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_slime_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "slime",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_slime_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater_growing",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_growing_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater_growing",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_growing_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater_growing",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_growing_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater_growing",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_growing_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater_growing",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_growing_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater_growing",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_growing_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater_growing",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_growing_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "witchwater_growing",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_witchwater_growing_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_blaze",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_blaze_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_blaze",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_blaze_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_blaze",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_blaze_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_blaze",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_blaze_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_blaze",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_blaze_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_blaze",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_blaze_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_blaze",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_blaze_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_blaze",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_blaze_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_enderman",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_enderman_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_enderman",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_enderman_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_enderman",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_enderman_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_enderman",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_enderman_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_enderman",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_enderman_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_enderman",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_enderman_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_enderman",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_enderman_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "summon_enderman",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_summon_enderman_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "soul_sand",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_soul_sand_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "soul_sand",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_soul_sand_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "soul_sand",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_soul_sand_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "soul_sand",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_soul_sand_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "soul_sand",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_soul_sand_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "soul_sand",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_soul_sand_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "soul_sand",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_soul_sand_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "soul_sand",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_soul_sand_8"
+      }
+    },
+    {
+      "when": {
+        "contents": "chorus",
+        "fill": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_chorus_1"
+      }
+    },
+    {
+      "when": {
+        "contents": "chorus",
+        "fill": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_chorus_2"
+      }
+    },
+    {
+      "when": {
+        "contents": "chorus",
+        "fill": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_chorus_3"
+      }
+    },
+    {
+      "when": {
+        "contents": "chorus",
+        "fill": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_chorus_4"
+      }
+    },
+    {
+      "when": {
+        "contents": "chorus",
+        "fill": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_chorus_5"
+      }
+    },
+    {
+      "when": {
+        "contents": "chorus",
+        "fill": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_chorus_6"
+      }
+    },
+    {
+      "when": {
+        "contents": "chorus",
+        "fill": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_chorus_7"
+      }
+    },
+    {
+      "when": {
+        "contents": "chorus",
+        "fill": "8"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/barrel_contents_chorus_8"
+      }
+    }
+  ]
+}

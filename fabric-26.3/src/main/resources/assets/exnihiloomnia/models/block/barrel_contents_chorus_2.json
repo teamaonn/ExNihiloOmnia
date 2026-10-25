@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "content": "minecraft:block/chorus_plant",
+    "particle": "minecraft:block/chorus_plant"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        1.01,
+        2
+      ],
+      "to": [
+        14,
+        4.46,
+        14
+      ],
+      "faces": {
+        "up": {
+          "texture": "#content"
+        },
+        "down": {
+          "texture": "#content"
+        },
+        "north": {
+          "texture": "#content"
+        },
+        "south": {
+          "texture": "#content"
+        },
+        "east": {
+          "texture": "#content"
+        },
+        "west": {
+          "texture": "#content"
+        }
+      }
+    }
+  ]
+}

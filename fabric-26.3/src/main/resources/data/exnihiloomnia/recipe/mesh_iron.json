@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " X ",
+    "XMX",
+    " X "
+  ],
+  "key": {
+    "X": "minecraft:iron_ingot",
+    "M": "exnihiloomnia:mesh_flint"
+  },
+  "result": {
+    "id": "exnihiloomnia:mesh_iron",
+    "count": 1
+  }
+}

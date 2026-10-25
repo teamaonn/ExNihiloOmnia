@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": "exnihiloomnia:gravel_ender"
+  },
+  "result": {
+    "id": "exnihiloomnia:compressed_gravel_ender",
+    "count": 1
+  }
+}

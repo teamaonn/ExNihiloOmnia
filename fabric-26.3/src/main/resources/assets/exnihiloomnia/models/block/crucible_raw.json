@@ -1,0 +1,9 @@
+{
+  "parent": "exnihiloomnia:block/crucible",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "exnihiloomnia:block/crucible_bottom_raw",
+    "side": "exnihiloomnia:block/crucible_side_raw",
+    "bottom": "exnihiloomnia:block/crucible_bottom_raw"
+  }
+}

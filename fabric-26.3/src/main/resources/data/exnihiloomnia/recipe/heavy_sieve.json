@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "L L",
+    "LSL",
+    "L L"
+  ],
+  "key": {
+    "L": "#minecraft:logs",
+    "S": "exnihiloomnia:sieve_wood"
+  },
+  "result": {
+    "id": "exnihiloomnia:heavy_sieve",
+    "count": 1
+  }
+}

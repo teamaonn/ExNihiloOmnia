@@ -1,0 +1,46 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+version = project.mod_version
+group = 'exnihiloomnia'
+base { archivesName = 'exnihiloomnia-fabric-26.3' }
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+}
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') { expand 'version': project.version }
+}
+java {
+    withSourcesJar()
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+}
+tasks.withType(JavaCompile).configureEach {
+    options.release = 25
+    options.encoding = 'UTF-8'
+}
+fabricApi {
+    configureTests {
+        createSourceSet = true
+        modId = 'exnihiloomnia-test'
+        enableGameTests = true
+        enableClientGameTests = false
+    }
+}
+
+// Headless regression for the client foliage registry; no OpenGL window needed.
+sourceSets {
+    tintcheck {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.runtimeClasspath
+    }
+}
+tasks.register('verifyLeafTints', JavaExec) {
+    dependsOn tasks.named('tintcheckClasses')
+    classpath = sourceSets.tintcheck.runtimeClasspath
+    mainClass = 'exnihiloomnia.fabric.LeafTintCheck'
+}
+tasks.named('check') { dependsOn tasks.named('verifyLeafTints') }

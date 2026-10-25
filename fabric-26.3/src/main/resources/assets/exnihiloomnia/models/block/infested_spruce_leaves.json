@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "minecraft:block/spruce_leaves",
+    "particle": "minecraft:block/spruce_leaves"
+  }
+}

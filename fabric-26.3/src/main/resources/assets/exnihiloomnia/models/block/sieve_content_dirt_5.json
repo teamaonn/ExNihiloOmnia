@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "content": "minecraft:block/dirt",
+    "particle": "minecraft:block/dirt"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        11.2,
+        2
+      ],
+      "to": [
+        14,
+        12.174999999999999,
+        14
+      ],
+      "faces": {
+        "up": {
+          "texture": "#content"
+        },
+        "down": {
+          "texture": "#content"
+        },
+        "north": {
+          "texture": "#content"
+        },
+        "south": {
+          "texture": "#content"
+        },
+        "east": {
+          "texture": "#content"
+        },
+        "west": {
+          "texture": "#content"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X X",
+    "X X",
+    "XYX"
+  ],
+  "key": {
+    "X": "minecraft:warped_planks",
+    "Y": "minecraft:warped_slab"
+  },
+  "result": {
+    "id": "exnihiloomnia:barrel_warped",
+    "count": 1
+  }
+}

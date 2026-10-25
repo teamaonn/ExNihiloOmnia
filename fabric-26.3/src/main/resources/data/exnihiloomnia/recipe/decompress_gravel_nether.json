@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "exnihiloomnia:compressed_gravel_nether"
+  ],
+  "result": {
+    "id": "exnihiloomnia:gravel_nether",
+    "count": 9
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X X",
+    "X X",
+    "XXX"
+  ],
+  "key": {
+    "X": "exnihiloomnia:porcelain"
+  },
+  "result": {
+    "id": "exnihiloomnia:crucible_raw",
+    "count": 1
+  }
+}

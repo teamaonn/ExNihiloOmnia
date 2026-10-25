@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": "minecraft:cobblestone"
+  },
+  "result": {
+    "id": "exnihiloomnia:compressed_cobblestone",
+    "count": 1
+  }
+}

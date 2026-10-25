@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X X",
+    "X X",
+    "XYX"
+  ],
+  "key": {
+    "X": "minecraft:glass",
+    "Y": "minecraft:glass_pane"
+  },
+  "result": {
+    "id": "exnihiloomnia:barrel_glass",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X X",
+    "X X",
+    "XYX"
+  ],
+  "key": {
+    "X": "minecraft:mangrove_planks",
+    "Y": "minecraft:mangrove_slab"
+  },
+  "result": {
+    "id": "exnihiloomnia:barrel_mangrove",
+    "count": 1
+  }
+}

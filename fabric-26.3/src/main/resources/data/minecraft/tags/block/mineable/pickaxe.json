@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "exnihiloomnia:barrel_stone",
+    "exnihiloomnia:barrel_glass",
+    "exnihiloomnia:barrel_glass_white",
+    "exnihiloomnia:barrel_glass_orange",
+    "exnihiloomnia:barrel_glass_magenta",
+    "exnihiloomnia:barrel_glass_light_blue",
+    "exnihiloomnia:barrel_glass_yellow",
+    "exnihiloomnia:barrel_glass_lime",
+    "exnihiloomnia:barrel_glass_pink",
+    "exnihiloomnia:barrel_glass_gray",
+    "exnihiloomnia:barrel_glass_light_gray",
+    "exnihiloomnia:barrel_glass_cyan",
+    "exnihiloomnia:barrel_glass_purple",
+    "exnihiloomnia:barrel_glass_blue",
+    "exnihiloomnia:barrel_glass_brown",
+    "exnihiloomnia:barrel_glass_green",
+    "exnihiloomnia:barrel_glass_red",
+    "exnihiloomnia:barrel_glass_black",
+    "exnihiloomnia:crucible",
+    "exnihiloomnia:crucible_raw"
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_wood"
+      }
+    },
+    {
+      "when": {
+        "mesh": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_mesh_1"
+      }
+    },
+    {
+      "when": {
+        "mesh": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_mesh_2"
+      }
+    },
+    {
+      "when": {
+        "mesh": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_mesh_3"
+      }
+    },
+    {
+      "when": {
+        "mesh": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_mesh_4"
+      }
+    },
+    {
+      "when": {
+        "content": "1",
+        "progress": "0"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dirt_0"
+      }
+    },
+    {
+      "when": {
+        "content": "1",
+        "progress": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dirt_1"
+      }
+    },
+    {
+      "when": {
+        "content": "1",
+        "progress": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dirt_2"
+      }
+    },
+    {
+      "when": {
+        "content": "1",
+        "progress": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dirt_3"
+      }
+    },
+    {
+      "when": {
+        "content": "1",
+        "progress": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dirt_4"
+      }
+    },
+    {
+      "when": {
+        "content": "1",
+        "progress": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dirt_5"
+      }
+    },
+    {
+      "when": {
+        "content": "1",
+        "progress": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dirt_6"
+      }
+    },
+    {
+      "when": {
+        "content": "1",
+        "progress": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dirt_7"
+      }
+    },
+    {
+      "when": {
+        "content": "2",
+        "progress": "0"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_0"
+      }
+    },
+    {
+      "when": {
+        "content": "2",
+        "progress": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_1"
+      }
+    },
+    {
+      "when": {
+        "content": "2",
+        "progress": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_2"
+      }
+    },
+    {
+      "when": {
+        "content": "2",
+        "progress": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_3"
+      }
+    },
+    {
+      "when": {
+        "content": "2",
+        "progress": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_4"
+      }
+    },
+    {
+      "when": {
+        "content": "2",
+        "progress": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_5"
+      }
+    },
+    {
+      "when": {
+        "content": "2",
+        "progress": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_6"
+      }
+    },
+    {
+      "when": {
+        "content": "2",
+        "progress": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_7"
+      }
+    },
+    {
+      "when": {
+        "content": "3",
+        "progress": "0"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_sand_0"
+      }
+    },
+    {
+      "when": {
+        "content": "3",
+        "progress": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_sand_1"
+      }
+    },
+    {
+      "when": {
+        "content": "3",
+        "progress": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_sand_2"
+      }
+    },
+    {
+      "when": {
+        "content": "3",
+        "progress": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_sand_3"
+      }
+    },
+    {
+      "when": {
+        "content": "3",
+        "progress": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_sand_4"
+      }
+    },
+    {
+      "when": {
+        "content": "3",
+        "progress": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_sand_5"
+      }
+    },
+    {
+      "when": {
+        "content": "3",
+        "progress": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_sand_6"
+      }
+    },
+    {
+      "when": {
+        "content": "3",
+        "progress": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_sand_7"
+      }
+    },
+    {
+      "when": {
+        "content": "4",
+        "progress": "0"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dust_0"
+      }
+    },
+    {
+      "when": {
+        "content": "4",
+        "progress": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dust_1"
+      }
+    },
+    {
+      "when": {
+        "content": "4",
+        "progress": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dust_2"
+      }
+    },
+    {
+      "when": {
+        "content": "4",
+        "progress": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dust_3"
+      }
+    },
+    {
+      "when": {
+        "content": "4",
+        "progress": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dust_4"
+      }
+    },
+    {
+      "when": {
+        "content": "4",
+        "progress": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dust_5"
+      }
+    },
+    {
+      "when": {
+        "content": "4",
+        "progress": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dust_6"
+      }
+    },
+    {
+      "when": {
+        "content": "4",
+        "progress": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_dust_7"
+      }
+    },
+    {
+      "when": {
+        "content": "5",
+        "progress": "0"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_soul_sand_0"
+      }
+    },
+    {
+      "when": {
+        "content": "5",
+        "progress": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_soul_sand_1"
+      }
+    },
+    {
+      "when": {
+        "content": "5",
+        "progress": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_soul_sand_2"
+      }
+    },
+    {
+      "when": {
+        "content": "5",
+        "progress": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_soul_sand_3"
+      }
+    },
+    {
+      "when": {
+        "content": "5",
+        "progress": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_soul_sand_4"
+      }
+    },
+    {
+      "when": {
+        "content": "5",
+        "progress": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_soul_sand_5"
+      }
+    },
+    {
+      "when": {
+        "content": "5",
+        "progress": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_soul_sand_6"
+      }
+    },
+    {
+      "when": {
+        "content": "5",
+        "progress": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_soul_sand_7"
+      }
+    },
+    {
+      "when": {
+        "content": "6",
+        "progress": "0"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_nether_0"
+      }
+    },
+    {
+      "when": {
+        "content": "6",
+        "progress": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_nether_1"
+      }
+    },
+    {
+      "when": {
+        "content": "6",
+        "progress": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_nether_2"
+      }
+    },
+    {
+      "when": {
+        "content": "6",
+        "progress": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_nether_3"
+      }
+    },
+    {
+      "when": {
+        "content": "6",
+        "progress": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_nether_4"
+      }
+    },
+    {
+      "when": {
+        "content": "6",
+        "progress": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_nether_5"
+      }
+    },
+    {
+      "when": {
+        "content": "6",
+        "progress": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_nether_6"
+      }
+    },
+    {
+      "when": {
+        "content": "6",
+        "progress": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_nether_7"
+      }
+    },
+    {
+      "when": {
+        "content": "7",
+        "progress": "0"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_ender_0"
+      }
+    },
+    {
+      "when": {
+        "content": "7",
+        "progress": "1"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_ender_1"
+      }
+    },
+    {
+      "when": {
+        "content": "7",
+        "progress": "2"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_ender_2"
+      }
+    },
+    {
+      "when": {
+        "content": "7",
+        "progress": "3"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_ender_3"
+      }
+    },
+    {
+      "when": {
+        "content": "7",
+        "progress": "4"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_ender_4"
+      }
+    },
+    {
+      "when": {
+        "content": "7",
+        "progress": "5"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_ender_5"
+      }
+    },
+    {
+      "when": {
+        "content": "7",
+        "progress": "6"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_ender_6"
+      }
+    },
+    {
+      "when": {
+        "content": "7",
+        "progress": "7"
+      },
+      "apply": {
+        "model": "exnihiloomnia:block/sieve_content_gravel_ender_7"
+      }
+    }
+  ]
+}

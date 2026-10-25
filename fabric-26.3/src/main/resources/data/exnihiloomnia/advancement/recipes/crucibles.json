@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "inventory": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "exnihiloomnia:crucible_raw",
+      "exnihiloomnia:bucket_porcelain_raw",
+      "exnihiloomnia:porcelain",
+      "exnihiloomnia:ash",
+      "exnihiloomnia:crucible",
+      "exnihiloomnia:bucket_porcelain"
+    ]
+  }
+}

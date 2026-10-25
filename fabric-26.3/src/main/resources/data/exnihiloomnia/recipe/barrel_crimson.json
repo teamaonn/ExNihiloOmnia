@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X X",
+    "X X",
+    "XYX"
+  ],
+  "key": {
+    "X": "minecraft:crimson_planks",
+    "Y": "minecraft:crimson_slab"
+  },
+  "result": {
+    "id": "exnihiloomnia:barrel_crimson",
+    "count": 1
+  }
+}

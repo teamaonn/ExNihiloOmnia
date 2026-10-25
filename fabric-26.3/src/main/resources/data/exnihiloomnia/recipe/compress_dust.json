@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": "exnihiloomnia:dust"
+  },
+  "result": {
+    "id": "exnihiloomnia:compressed_dust",
+    "count": 1
+  }
+}

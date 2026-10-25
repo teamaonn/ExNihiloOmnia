@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "exnihiloomnia:compressed_gravel"
+  ],
+  "result": {
+    "id": "minecraft:gravel",
+    "count": 9
+  }
+}

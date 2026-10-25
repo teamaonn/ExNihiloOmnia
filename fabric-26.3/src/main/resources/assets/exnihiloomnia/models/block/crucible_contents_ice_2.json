@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "content": "minecraft:block/ice",
+    "particle": "minecraft:block/ice"
+  },
+  "elements": [
+    {
+      "from": [
+        1.01,
+        3.01,
+        1.01
+      ],
+      "to": [
+        14.99,
+        6.16,
+        14.99
+      ],
+      "faces": {
+        "up": {
+          "texture": "#content"
+        },
+        "down": {
+          "texture": "#content"
+        },
+        "north": {
+          "texture": "#content"
+        },
+        "south": {
+          "texture": "#content"
+        },
+        "east": {
+          "texture": "#content"
+        },
+        "west": {
+          "texture": "#content"
+        }
+      }
+    }
+  ]
+}

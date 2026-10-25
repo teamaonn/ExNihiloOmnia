@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " X ",
+    "XMX",
+    " X "
+  ],
+  "key": {
+    "X": "minecraft:diamond",
+    "M": "exnihiloomnia:mesh_iron"
+  },
+  "result": {
+    "id": "exnihiloomnia:mesh_diamond",
+    "count": 1
+  }
+}

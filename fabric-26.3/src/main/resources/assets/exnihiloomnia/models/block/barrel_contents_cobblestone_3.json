@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "content": "minecraft:block/cobblestone",
+    "particle": "minecraft:block/cobblestone"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        1.01,
+        2
+      ],
+      "to": [
+        14,
+        6.1850000000000005,
+        14
+      ],
+      "faces": {
+        "up": {
+          "texture": "#content"
+        },
+        "down": {
+          "texture": "#content"
+        },
+        "north": {
+          "texture": "#content"
+        },
+        "south": {
+          "texture": "#content"
+        },
+        "east": {
+          "texture": "#content"
+        },
+        "west": {
+          "texture": "#content"
+        }
+      }
+    }
+  ]
+}

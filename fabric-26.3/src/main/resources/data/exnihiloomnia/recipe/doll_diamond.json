@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "XGX",
+    " X ",
+    "X X"
+  ],
+  "key": {
+    "X": "exnihiloomnia:porcelain",
+    "G": "minecraft:diamond"
+  },
+  "result": {
+    "id": "exnihiloomnia:doll",
+    "count": 1
+  }
+}

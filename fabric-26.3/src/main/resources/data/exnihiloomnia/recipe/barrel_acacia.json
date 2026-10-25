@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X X",
+    "X X",
+    "XYX"
+  ],
+  "key": {
+    "X": "minecraft:acacia_planks",
+    "Y": "minecraft:acacia_slab"
+  },
+  "result": {
+    "id": "exnihiloomnia:barrel_acacia",
+    "count": 1
+  }
+}

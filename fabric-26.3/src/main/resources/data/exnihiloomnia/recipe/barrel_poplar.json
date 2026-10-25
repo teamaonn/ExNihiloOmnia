@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X X",
+    "X X",
+    "XYX"
+  ],
+  "key": {
+    "X": "minecraft:poplar_planks",
+    "Y": "minecraft:poplar_slab"
+  },
+  "result": {
+    "id": "exnihiloomnia:barrel_poplar",
+    "count": 1
+  }
+}

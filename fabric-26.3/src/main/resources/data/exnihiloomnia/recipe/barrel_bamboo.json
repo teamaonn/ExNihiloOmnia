@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X X",
+    "X X",
+    "XYX"
+  ],
+  "key": {
+    "X": "minecraft:bamboo_planks",
+    "Y": "minecraft:bamboo_slab"
+  },
+  "result": {
+    "id": "exnihiloomnia:barrel_bamboo",
+    "count": 1
+  }
+}

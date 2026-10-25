@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BWB",
+    "GDG",
+    "BRB"
+  ],
+  "key": {
+    "B": "minecraft:blaze_powder",
+    "W": "minecraft:nether_wart",
+    "G": "minecraft:glowstone_dust",
+    "D": "exnihiloomnia:doll",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "exnihiloomnia:doll_blaze",
+    "count": 1
+  }
+}

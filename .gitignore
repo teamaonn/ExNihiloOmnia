@@ -21,3 +21,5 @@ build
 eclipse
 run
 run_server
+
+/fabric-26.3/logs/

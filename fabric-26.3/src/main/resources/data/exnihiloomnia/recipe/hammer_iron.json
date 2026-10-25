@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X X",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "X": "minecraft:iron_ingot",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "exnihiloomnia:hammer_iron",
+    "count": 1
+  }
+}

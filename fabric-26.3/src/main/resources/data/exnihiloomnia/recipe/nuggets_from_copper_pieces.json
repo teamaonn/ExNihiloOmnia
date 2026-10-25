@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "P": "exnihiloomnia:copper_piece"
+  },
+  "result": {
+    "id": "minecraft:copper_nugget",
+    "count": 9
+  }
+}

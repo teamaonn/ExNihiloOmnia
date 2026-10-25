@@ -1,0 +1,6 @@
+{
+  "parent": "exnihiloomnia:block/barrel_shell",
+  "textures": {
+    "barrel": "minecraft:block/green_stained_glass"
+  }
+}

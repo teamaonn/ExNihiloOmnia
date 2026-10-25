@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": "exnihiloomnia:silkworm",
+  "result": {
+    "id": "exnihiloomnia:cooked_silkworm"
+  },
+  "cookingtime": 200,
+  "experience": 0.0
+}

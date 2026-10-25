@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X X",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "X": "#minecraft:planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "exnihiloomnia:hammer_wood",
+    "count": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "content": "exnihiloomnia:block/witchwater_still",
+    "particle": "exnihiloomnia:block/witchwater_still"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        1.01,
+        2
+      ],
+      "to": [
+        14,
+        2.7350000000000003,
+        14
+      ],
+      "faces": {
+        "up": {
+          "texture": "#content"
+        },
+        "down": {
+          "texture": "#content"
+        },
+        "north": {
+          "texture": "#content"
+        },
+        "south": {
+          "texture": "#content"
+        },
+        "east": {
+          "texture": "#content"
+        },
+        "west": {
+          "texture": "#content"
+        }
+      }
+    }
+  ]
+}

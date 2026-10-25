@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "content": "minecraft:block/lava_still",
+    "particle": "minecraft:block/lava_still"
+  },
+  "elements": [
+    {
+      "from": [
+        1.01,
+        3.01,
+        1.01
+      ],
+      "to": [
+        14.99,
+        9.309999999999999,
+        14.99
+      ],
+      "faces": {
+        "up": {
+          "texture": "#content"
+        },
+        "down": {
+          "texture": "#content"
+        },
+        "north": {
+          "texture": "#content"
+        },
+        "south": {
+          "texture": "#content"
+        },
+        "east": {
+          "texture": "#content"
+        },
+        "west": {
+          "texture": "#content"
+        }
+      }
+    }
+  ]
+}

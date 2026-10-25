@@ -1,0 +1,190 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "exnihiloomnia:sieve_wood"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "exnihiloomnia:mesh_string"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "exnihiloomnia:sieve_wood",
+        "state": {
+          "mesh": "1"
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "exnihiloomnia:mesh_flint"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "exnihiloomnia:sieve_wood",
+        "state": {
+          "mesh": "2"
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "exnihiloomnia:mesh_iron"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "exnihiloomnia:sieve_wood",
+        "state": {
+          "mesh": "3"
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "exnihiloomnia:mesh_diamond"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "exnihiloomnia:sieve_wood",
+        "state": {
+          "mesh": "4"
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "exnihiloomnia:sieve_wood",
+        "state": {
+          "content": "1"
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gravel"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "exnihiloomnia:sieve_wood",
+        "state": {
+          "content": "2"
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sand"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "exnihiloomnia:sieve_wood",
+        "state": {
+          "content": "3"
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "exnihiloomnia:dust"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "exnihiloomnia:sieve_wood",
+        "state": {
+          "content": "4"
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_sand"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "exnihiloomnia:sieve_wood",
+        "state": {
+          "content": "5"
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "exnihiloomnia:gravel_nether"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "exnihiloomnia:sieve_wood",
+        "state": {
+          "content": "6"
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "exnihiloomnia:gravel_ender"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "exnihiloomnia:sieve_wood",
+        "state": {
+          "content": "7"
+        }
+      }
+    }
+  ]
+}

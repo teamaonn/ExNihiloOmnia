@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "content": "exnihiloomnia:block/gravel_ender",
+    "particle": "exnihiloomnia:block/gravel_ender"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        11.2,
+        2
+      ],
+      "to": [
+        14,
+        13.475,
+        14
+      ],
+      "faces": {
+        "up": {
+          "texture": "#content"
+        },
+        "down": {
+          "texture": "#content"
+        },
+        "north": {
+          "texture": "#content"
+        },
+        "south": {
+          "texture": "#content"
+        },
+        "east": {
+          "texture": "#content"
+        },
+        "west": {
+          "texture": "#content"
+        }
+      }
+    }
+  ]
+}

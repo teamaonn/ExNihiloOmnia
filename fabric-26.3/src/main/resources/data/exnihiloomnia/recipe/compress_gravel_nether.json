@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": "exnihiloomnia:gravel_nether"
+  },
+  "result": {
+    "id": "exnihiloomnia:compressed_gravel_nether",
+    "count": 1
+  }
+}

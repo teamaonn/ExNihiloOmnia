@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X X",
+    "X X",
+    "XYX"
+  ],
+  "key": {
+    "X": "minecraft:dark_oak_planks",
+    "Y": "minecraft:dark_oak_slab"
+  },
+  "result": {
+    "id": "exnihiloomnia:barrel_dark_oak",
+    "count": 1
+  }
+}

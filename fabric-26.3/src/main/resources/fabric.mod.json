@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "exnihiloomnia",
+  "version": "${version}",
+  "name": "Ex Nihilo Omnia",
+  "description": "Fabric 26.3 port with sieving, compression, hammers, crooks, silkworms, infested leaves processing barrels, crucibles, Witchwater and dolls.",
+  "authors": [
+    "Jozufozu",
+    "Joshua"
+  ],
+  "contact": {
+    "sources": "https://github.com/teamaonn/ExNihiloOmnia"
+  },
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "exnihiloomnia.fabric.ExNihiloOmnia"
+    ],
+    "client": [
+      "exnihiloomnia.fabric.ExNihiloClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.160.7"
+  }
+}

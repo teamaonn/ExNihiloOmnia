@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "exnihiloomnia:dust",
+    "exnihiloomnia:gravel_nether",
+    "exnihiloomnia:gravel_ender",
+    "exnihiloomnia:compressed_dirt",
+    "exnihiloomnia:compressed_gravel",
+    "exnihiloomnia:compressed_sand",
+    "exnihiloomnia:compressed_dust",
+    "exnihiloomnia:compressed_soul_sand",
+    "exnihiloomnia:compressed_gravel_nether",
+    "exnihiloomnia:compressed_gravel_ender"
+  ]
+}
