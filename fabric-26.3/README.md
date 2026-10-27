@@ -1,6 +1,12 @@
 # Ex Nihilo Omnia — Fabric 26.3 port
 
-**0.5.0-alpha.1 adds Witchwater, mushroom spores and summoning dolls.**
+**0.5.0-alpha.2 fixes a client crash when infesting cherry and other untinted leaves.**
+Leaves without a color provider now retain their original texture using a neutral
+color multiplier. Biome-tinted leaves retain their existing gradual color change.
+The headless foliage check covers all fourteen supported species, including
+in-world rendering color lookup for leaves without a tint source.
+
+0.5.0-alpha.1 added Witchwater, mushroom spores and summoning dolls.
 This is an expanding port, not the finished full-feature Omnia port. The supplied
 Forge 1.10.2 source remains at the repository root as the implementation reference.
 

@@ -54,6 +54,10 @@ public final class ExNihiloClient implements ClientModInitializer {
         // getFactory only queries Fabric's dynamic factories. Vanilla foliage
         // uses the static BlockColors registry, including biome and species tints.
         var source = vanillaColors.getTintSource(original, 0);
+        // Cherry, azalea and other texture-colored leaves have no tint source.
+        // White is the neutral multiplier: retain their texture rather than
+        // dereferencing a missing provider when the infested block is rendered.
+        if (source == null) return 0xFFFFFFFF;
         return view == null || pos == null ? source.color(original) : source.colorInWorld(original, view, pos);
     }
 
