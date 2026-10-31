@@ -9,7 +9,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 
 public final class SieveDrops {
-    private record Drop(int input, int minimumMesh, Item item, int count, float bonusChance, float probability) {}
+    public record Drop(int input, int minimumMesh, Item item, int count, float bonusChance, float probability) {}
     private static final List<Drop> DROPS = new ArrayList<>();
     private SieveDrops() {}
 
@@ -47,6 +47,9 @@ public final class SieveDrops {
         addNuggets(6, Items.GOLD_NUGGET, .12F);
         add(7, 1, Items.CHORUS_FLOWER, .10F); add(7, 3, Items.ENDER_PEARL, .03F);
     }
+
+    /** Immutable view of the live drop table, including independent duplicate rolls. */
+    public static List<Drop> entries() { return List.copyOf(DROPS); }
 
     private static void add(int input, int mesh, Item item, float probability) {
         DROPS.add(new Drop(input, mesh, item, 1, 0F, probability));

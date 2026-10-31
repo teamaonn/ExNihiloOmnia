@@ -235,3 +235,12 @@ pass resource validation. User confirmed crucible mechanics and the alpha.2 mode
 fix in-game; new Witchwater/doll client appearance still needs in-game confirmation.
 Optional packed ice, special compost modifiers, arbitrary mod fluids and configurable
 registries remain future parity work, along with the other unported legacy systems.
+
+
+### 0.5.0-alpha.3 — optional JEI processing integration
+
+Adds seven discoverable JEI processing categories without a hard JEI dependency.
+The existing cherry-leaf rendering fix from alpha.2 is retained. Recipe catalog
+checks cover live tables, mesh gating, independent heavy-sieve probabilities,
+fluid amounts, compost quantities, and the extra process notes. Dedicated-server
+startup without JEI passes; rendered JEI verification remains a manual check.

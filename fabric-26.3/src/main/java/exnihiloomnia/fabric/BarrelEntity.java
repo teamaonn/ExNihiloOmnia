@@ -82,11 +82,15 @@ public final class BarrelEntity extends BlockEntity implements WorldlyContainer 
     }
     private ItemStack fluidRecipe(ItemStack item) {
         if(!fullTank()) return ItemStack.EMPTY;
-        if(fluid()==Fluids.WATER && item.is(ExNihiloOmnia.ITEMS.get("dust"))) return new ItemStack(Items.CLAY);
-        if(fluid()==Fluids.LAVA && item.is(Items.REDSTONE)) return new ItemStack(Items.NETHERRACK);
-        if(fluid()==Fluids.LAVA && item.is(Items.GLOWSTONE_DUST)) return new ItemStack(Items.END_STONE);
-        if(fluid()==ExNihiloOmnia.WITCHWATER && item.is(Items.SAND))return new ItemStack(Items.SOUL_SAND);
-        if(fluid()==ExNihiloOmnia.WITCHWATER && item.is(Items.GOLDEN_APPLE))return new ItemStack(Items.CHORUS_FRUIT);
+        return fluidRecipe(fluid(),item);
+    }
+    /** Shared by the barrel and optional recipe viewers. Requires a full bucket. */
+    public static ItemStack fluidRecipe(Fluid fluid,ItemStack item) {
+        if(fluid==Fluids.WATER && item.is(ExNihiloOmnia.ITEMS.get("dust"))) return new ItemStack(Items.CLAY);
+        if(fluid==Fluids.LAVA && item.is(Items.REDSTONE)) return new ItemStack(Items.NETHERRACK);
+        if(fluid==Fluids.LAVA && item.is(Items.GLOWSTONE_DUST)) return new ItemStack(Items.END_STONE);
+        if(fluid==ExNihiloOmnia.WITCHWATER && item.is(Items.SAND))return new ItemStack(Items.SOUL_SAND);
+        if(fluid==ExNihiloOmnia.WITCHWATER && item.is(Items.GOLDEN_APPLE))return new ItemStack(Items.CHORUS_FRUIT);
         return ItemStack.EMPTY;
     }
     boolean canAccept(ItemStack item) {

@@ -9,7 +9,8 @@
       "exnihiloomnia.fabric.LeafGameTests",
       "exnihiloomnia.fabric.BarrelGameTests",
       "exnihiloomnia.fabric.CrucibleGameTests",
-      "exnihiloomnia.fabric.WitchwaterGameTests"
+      "exnihiloomnia.fabric.WitchwaterGameTests",
+      "exnihiloomnia.fabric.JeiGameTests"
     ]
   }
 }

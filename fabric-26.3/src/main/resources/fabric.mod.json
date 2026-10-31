@@ -18,6 +18,9 @@
     ],
     "client": [
       "exnihiloomnia.fabric.ExNihiloClient"
+    ],
+    "jei_mod_plugin": [
+      "exnihiloomnia.fabric.jei.ExNihiloJeiPlugin"
     ]
   },
   "depends": {
@@ -25,5 +28,8 @@
     "minecraft": "26.3",
     "java": ">=25",
     "fabric-api": ">=0.160.7"
+  },
+  "suggests": {
+    "jei": "*"
   }
 }
