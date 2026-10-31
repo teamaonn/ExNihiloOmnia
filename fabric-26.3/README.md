@@ -284,3 +284,36 @@ The client tint regression check (`verifyLeafTints`, included in `build`) uses
 Minecraft's actual vanilla color registry without opening a window. It verifies
 that oak/birch/spruce retain their original colors at zero growth and only reach
 white at the final growth stage. Full client appearance still needs an in-game check.
+
+
+## Optional JEI support (0.5.0-alpha.3)
+
+Install JEI for Minecraft 26.3 on the client to browse processing recipes with
+JEI's recipe and use keys. Ex Nihilo does not require JEI, including on servers.
+No JEI implementation or API is bundled in the release JAR.
+
+The optional `jei_mod_plugin` entrypoint adds Sieving, Hammering, Barrel
+Composting, Barrel Processing, Crucible Melting, Crucible Heat Sources, and
+Crooks and Silkworms. Vanilla crafting and cooking recipes remain handled by
+JEI itself. The integration compiles against JEI 31.0.0.5 and 31.17.0.103;
+the Gradle development dependency uses 31.17.0.103.
+
+Sieving pages show each eligible mesh, the regular or heavy sieve, the chance
+of at least one reward, and independent roll counts. Heavy sieves repeat the
+live drop table nine times; their displayed output stack is a single successful
+roll, with the maximum total stated below. Metal rolls show the extra-nugget
+chance. Composting pages show how many identical items fill a barrel; materials
+can also be mixed. Fluid slots use Fabric's native units while notes show mB.
+Tools and meshes are listed as crafting stations, rather than consumed inputs.
+World-placement requirements, random growth, lava-safe barrel requirements,
+and mob previews are explained on the relevant pages. Spawn eggs on summoning
+pages represent the spawned mob, not a craftable egg.
+
+Recipe data is read from the gameplay tables for sieving, hammering, composting,
+barrel item/fluid conversions, crucible melting, and heat. Server-side recipe
+regressions are included in the existing Fabric GameTest suite.
+
+Validation: all production sources compiled against both API versions; a real
+Fabric dedicated server without any JEI classes passed the catalog regression
+checks after loading vanilla tags. This is headless verification; JEI's rendered
+interface still needs an in-game check.

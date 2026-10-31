@@ -102,5 +102,12 @@
   "item.exnihiloomnia.doll_ender": "End Doll",
   "item.exnihiloomnia.bucket_witchwater": "Witchwater Bucket",
   "item.exnihiloomnia.bucket_porcelain_witchwater": "Porcelain Witchwater Bucket",
-  "block.exnihiloomnia.witchwater": "Witchwater"
+  "block.exnihiloomnia.witchwater": "Witchwater",
+  "jei.exnihiloomnia.sieving": "Sieving",
+  "jei.exnihiloomnia.hammering": "Hammering",
+  "jei.exnihiloomnia.composting": "Barrel Composting",
+  "jei.exnihiloomnia.barrel": "Barrel Processing",
+  "jei.exnihiloomnia.crucible": "Crucible Melting",
+  "jei.exnihiloomnia.heat": "Crucible Heat Sources",
+  "jei.exnihiloomnia.crook": "Crooks and Silkworms"
 }

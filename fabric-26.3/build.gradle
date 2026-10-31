@@ -1,10 +1,13 @@
 plugins {
     id 'net.fabricmc.fabric-loom' version "${loom_version}"
 }
+repositories { maven { url = 'https://maven.blamejared.com/' } }
 version = project.mod_version
 group = 'exnihiloomnia'
 base { archivesName = 'exnihiloomnia-fabric-26.3' }
 dependencies {
+    compileOnly "mezz.jei:jei-26.3-common-api:${project.jei_version}"
+    compileOnly "mezz.jei:jei-26.3-fabric-api:${project.jei_version}"
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
     implementation "net.fabricmc:fabric-loader:${project.loader_version}"
     implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
